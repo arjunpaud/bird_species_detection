@@ -8,3 +8,4 @@ matplotlib
 streamlit
 streamlit_extras
 tqdm
+opencv-python-headless
