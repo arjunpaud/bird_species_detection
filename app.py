@@ -13,7 +13,7 @@ filterwarnings('ignore')
 def streamlit_config():
 
     # page configuration
-    st.set_page_config(page_title='Classification', layout='centered')
+    st.set_page_config(page_title='Bird Species Detection', layout='centered')
 
     # page header transparent color
     page_background_color = """
@@ -29,7 +29,7 @@ def streamlit_config():
     st.markdown(page_background_color, unsafe_allow_html=True)
 
     # title and position
-    st.markdown(f'<h1 style="text-align: center;">Bird Sound Classification</h1>',
+    st.markdown(f'<h1 style="text-align: center;">Bird Species Detection</h1>',
                 unsafe_allow_html=True)
     add_vertical_space(4)
 
